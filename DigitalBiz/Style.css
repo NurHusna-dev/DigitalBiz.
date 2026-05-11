@@ -54,10 +54,12 @@ body {
 .navbar__links a:hover { color: var(--blue); }
 
 /* LAYOUT */
-.layout { display: flex; 
+.layout { 
+    display: flex; 
     flex: 1; 
     min-height: calc(100vh - 68px); 
     align-items: stretch; }
+.layout--reverse { flex-direction: row-reverse; }
 
 /* ILLUSTRATION SIDE */
 .layout__illustration {
