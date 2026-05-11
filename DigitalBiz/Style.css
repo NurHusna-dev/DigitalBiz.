@@ -53,24 +53,23 @@ body {
 .navbar__links a { font-size: 14px; font-weight: 500; color: #64748b; text-decoration: none; }
 .navbar__links a:hover { color: var(--blue); }
 
-/* LAYOUT */
+/* LAYOUT - STRUKTUR UTAMA */
 .layout {
     display: flex;
     flex: 1;
     min-height: calc(100vh - 68px);
-    align-items: stretch; /* Memaksa sisi putih setinggi sisi biru agar seimbang */
+    align-items: stretch;
 }
-
 .layout--reverse { 
     flex-direction: row-reverse; 
 }
 
-/* ILLUSTRATION SIDE */
+/* ILLUSTRATION SIDE - POSISI TEKNIS */
 .layout__illustration {
     flex: 1.15; 
     display: flex; 
     flex-direction: column;
-    justify-content: center; /* MENARIK TEKS KE TENGAH SECARA VERTIKAL */
+    justify-content: center;
     align-items: flex-start;
     padding: 64px 72px; 
     background: #fff;
